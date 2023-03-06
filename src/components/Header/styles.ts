@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { PropsColor } from "./props";
 
 
 export const Container = styled.header`
@@ -16,20 +17,26 @@ export const Container = styled.header`
     font-size: 3.2rem;
     line-height: 4.4rem;
     color: #018762;
+
+    &:hover {
+      cursor: pointer;
+      color: #49A68C;
+    }
   }
 `
+
 export const MenuHeader = styled.div`
   display: flex;
   gap: 4rem ;
+`
+
+export const MenuItem = styled.p<PropsColor>`
   font-size: 1.6rem;
   line-height: 2.2rem;
-  color: #1F1F1F;
 
-  p{
-    &:hover {
-      cursor: pointer;
-      color: #5E5E5E;
-    }
-
+  color: ${({ color }) => color};
+  transition: color 0.3s;
+  &:hover {
+    color: ${({ color }) => color === "#018762" ? "#6CB5A1" : "#CACACA"};
   }
 `
