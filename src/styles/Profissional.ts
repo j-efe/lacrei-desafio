@@ -1,15 +1,21 @@
 import styled from "styled-components";
 
 export const ProfissionalLeftInfos = styled.div`
-width: 52rem;
+width: 100%;
 
 h1 {
-  font-weight: 700;
-  font-size: 4.8rem;
-  line-height: 6.5rem;
-  color: #1F1F1F;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #1F1F1F;
+    margin-bottom: 3.2rem;
 
-  margin-bottom: 3.2rem;
+  @media (min-width: 700px) {
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 6.5rem;
+    color: #1F1F1F;
+    margin-bottom: 3.2rem;
+  }
 }
 
 p {

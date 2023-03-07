@@ -28,7 +28,7 @@ export const ContainerGeneral = styled.div`
   width: 100%;
   height: auto;
   padding: 6.4rem;
-  gap: 10rem;
+  gap: 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,7 +39,19 @@ export const ContainerGeneral = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
+}
+
+.imagens-paginas {
+  width: 30rem;
+  height: 30rem;
+}
+
+@media (min-width: 700px) {
+  .imagens-paginas {
+    width: 55rem;
+    height: 42rem;
+  }
 
 }
 `

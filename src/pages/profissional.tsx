@@ -14,7 +14,7 @@ export default function Profissional() {
           <h1>Profissional</h1>
           <p>Buscamos recrutar pessoas profissionais da saúde que entendam as necessidades e se comprometam com o bem-estar da comunidade LGBTQIAPN+.</p>
         </ProfissionalLeftInfos>
-        <Image src="/images/arte-profissional.svg" alt="arte-pessoa" width={555} height={421}/>
+        <Image className='imagens-paginas' src="/images/arte-profissional.svg" alt="arte-pessoa" width={555} height={421}/>
       </ContainerGeneral>
     </>
   )

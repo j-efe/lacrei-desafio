@@ -1,15 +1,22 @@
 import styled from "styled-components";
 
 export const HomeLeftInfos = styled.div`
-width: 35rem;
+width: 100%;
+height: auto;
 
 h1 {
-  font-weight: 700;
-  font-size: 4.8rem;
-  line-height: 6.5rem;
-  color: #1F1F1F;
-  
-  margin-bottom: 3.2rem;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #1F1F1F;
+    margin-bottom: 3.2rem;
+
+  @media (min-width: 700px) {
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 6.5rem;
+    color: #1F1F1F;
+    margin-bottom: 3.2rem;
+  }
 }
 
 p {
@@ -23,20 +30,37 @@ p {
 
 div {
   display: flex;
-  gap: 3rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
 
+  @media (min-width: 700px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem;
+  }
+  
   .pessoa-usuaria, .profissional {
     border: none;
-
-    width: 19.2rem;
-    height: 4.8rem;
-
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 0.8rem;
+
+    width: 15rem;
+    height: 3rem;
+
+    font-weight: 600;
+    font-size: 1.4rem;
+
+    @media (min-width: 700px) {
+    width: 19.2rem;
+    height: 4.8rem;
 
     font-weight: 700;
     font-size: 1.8rem;
     line-height: 2.5rem;
+  }
   }
 
   .pessoa-usuaria {
