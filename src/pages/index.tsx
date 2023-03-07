@@ -1,4 +1,6 @@
-import { ContainerGeneral, HomeLeftInfos } from '@/styles/Home'
+import { ContainerGeneral } from '@/styles/GlobalSyle'
+import {  HomeLeftInfos } from '@/styles/Home'
+
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'

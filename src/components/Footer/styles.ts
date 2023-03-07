@@ -21,8 +21,10 @@ export const Container = styled.footer`
 
 export const MenuFooter = styled.div`
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.5rem;
   padding-top: 3.2rem;
-  gap: 4rem ;
   font-size: 1.6rem;
   line-height: 2.2rem;
   color: #1F1F1F;
@@ -33,6 +35,11 @@ export const MenuFooter = styled.div`
       cursor: pointer;
       color: #5E5E5E;
     }
+  }
+
+  @media (min-width: 700px) {
+    display: flex;
+    flex-direction: row;
   }
 `;
 export const IconsFooter = styled.div`
