@@ -3,14 +3,22 @@ import { PropsColor } from "./props";
 
 
 export const Container = styled.header`
-  background: #EEEEEE;
-  height: 6rem;
+  width: 100%;
+  height: auto;
+  padding: 1rem 6.4rem;
+  font-weight: 700;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 0 6.4rem;
+  background: #EEEEEE;
 
-  font-weight: 700;
+  @media (min-width: 700px) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
 
   h1 {
     margin-top: 0.8rem;
@@ -27,7 +35,7 @@ export const Container = styled.header`
 
 export const MenuHeader = styled.div`
   display: flex;
-  gap: 4rem ;
+  gap: 3rem;
 `
 
 export const MenuItem = styled.p<PropsColor>`

@@ -1,4 +1,4 @@
-import { ContainerGeneral } from "@/styles/Home";
+import { ContainerGeneral } from "@/styles/GlobalSyle";
 import { UsuariaLeftInfos } from "@/styles/PessoaUsuaria";
 import Head from "next/head";
 import Image from "next/image";

@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-
+import styled from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 * {
@@ -21,5 +21,25 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+`
+
+export const ContainerGeneral = styled.div`
+  width: 100%;
+  height: auto;
+  padding: 6.4rem;
+  gap: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+@media (min-width: 1200px) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
 }
 `

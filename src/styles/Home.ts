@@ -1,14 +1,7 @@
 import styled from "styled-components";
 
-export const ContainerGeneral = styled.div`
-width: 100%;
-padding: 6.4rem;
-display: flex;
-justify-content: space-between;
-`
-
 export const HomeLeftInfos = styled.div`
-width: 45.3rem;
+width: 35rem;
 
 h1 {
   font-weight: 700;
@@ -30,13 +23,13 @@ p {
 
 div {
   display: flex;
-  justify-content: space-between;
+  gap: 3rem;
 
   .pessoa-usuaria, .profissional {
     border: none;
 
-    width: 192px;
-    height: 48px;
+    width: 19.2rem;
+    height: 4.8rem;
 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 0.8rem;
