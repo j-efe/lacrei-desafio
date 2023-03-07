@@ -14,7 +14,7 @@ export default function PessoaUsuaria() {
           <h1>Pessoa Usuária</h1>
           <p>A Lacrei garante que pessoas LGBTQIAPN + recebam atendimento realizado por profissionais de qualidade e que atendam às suas necessidades de forma segura e acolhedora.</p>
         </UsuariaLeftInfos>
-        <Image src="/images/arte-pessoa.svg" alt="arte-pessoa" width={555} height={421}/>
+        <Image className="imagens-paginas" src="/images/arte-pessoa.svg" alt="arte-pessoa" width={555} height={421}/>
       </ContainerGeneral>
     </>
   )

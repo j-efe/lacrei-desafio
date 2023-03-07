@@ -5,8 +5,6 @@ export const Container = styled.footer`
   height: auto;
   padding: 0 6.4rem;
   background: #FFF;
-  position: fixed;
-  bottom: 0;
 
   h1 {
     margin-top: 3.5rem;

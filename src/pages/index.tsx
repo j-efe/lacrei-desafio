@@ -24,7 +24,7 @@ export default function Home() {
             </Link>
           </div>
         </HomeLeftInfos>
-        <Image src="/images/arte-inicio.svg" alt="arteInicio" width={555} height={421}/>
+        <Image className='imagens-paginas' src="/images/arte-inicio.svg" alt="arteInicio" width={555} height={421}/>
       </ContainerGeneral>
     </>
   )

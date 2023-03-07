@@ -3,7 +3,7 @@ import { PropsColor } from "./props";
 
 
 export const Container = styled.header`
-  width: 100%;
+  width: 100vw;
   height: auto;
   padding: 1rem 6.4rem;
   font-weight: 700;
